@@ -38,6 +38,7 @@ for i in range(len(t_array)):
 
 integral_total = np.sum(integral_array) #sum the array to get the total integral
 integral_C = integral_total/1e6
+print('Total steps = '+str(int(float(max_cols/2))))
 print('Q = '+str(integral_total)+' \u03BCC = '+str(integral_C)+' C')
 
 
